@@ -423,7 +423,11 @@ a.two.scroll {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.help_full img,
+.banner-contactenos {
+    margin-top: 3em;
+}
+
+s .help_full img,
 .help_full img {
     width: 100%;
 }
@@ -770,7 +774,8 @@ h3.tittle-w3ls.cen-2 {
 
 .banner-btm-inner {
     flex: 1;
-    padding: 4.5em 2.5em;
+    padding: 3.5em 2.5em;
+    /*    padding: 4.5em 2.5em;*/
 }
 
 .blog_date h4 {
@@ -1031,9 +1036,6 @@ ol.carousel-indicators.two {
     #myCarousel {
         padding-top: 122px;
     }
-    .mail_form input[type="submit"] {
-        width: 100%;
-    }
     .hero-cover {
         background-image: url(../images/corporativo-small.jpg);
         background-position: center;
@@ -1042,6 +1044,9 @@ ol.carousel-indicators.two {
     .banner_bottom iframe {
         width: 650px;
         min-height: 333px;
+        margin-top: 3em;
+    }
+    .banner-contactenos {
         margin-top: 3em;
     }
 }
@@ -1193,6 +1198,9 @@ button.btn1:hover {
 }
 
 @media(max-width:640px) {
+    .banner-contactenos {
+        margin-top: 3em;
+    }
     .error-404 h4 {
         font-size: 9em;
     }
@@ -1209,6 +1217,9 @@ button.btn1:hover {
 }
 
 @media(max-width:480px) {
+    .banner-contactenos {
+        margin-top: 3em;
+    }
     .banner_bottom iframe {
         width: 380px;
         margin-top: 3em;
@@ -2249,6 +2260,9 @@ p.copy-right a:hover {
 }
 
 @media(max-width:440px) {
+    .banner-contactenos {
+        margin-top: 3em;
+    }
     .bnr-button a {
         padding: .6em 1em;
         letter-spacing: 1px;
@@ -2343,6 +2357,9 @@ p.copy-right a:hover {
 }
 
 @media(max-width:320px) {
+    .banner-contactenos {
+        margin-top: 3em;
+    }
     .carousel-caption h2,
     .carousel-caption h3 {
         font-size: 1.4em;
